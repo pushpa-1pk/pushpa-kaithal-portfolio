@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Pushpa Kaithal
 
 <p align="center">
-  <img src="screenshots/preview.png" 
+  <img src="/pushpa-portfolio/public/screenshots/preview.png" 
        alt="Pushpa Kaithal Portfolio"
        width="100%">
 </p>
