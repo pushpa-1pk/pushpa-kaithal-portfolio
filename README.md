@@ -1,35 +1,95 @@
-# Pushpa Kaithal — Portfolio Website
+# 👋 Hi, I'm Pushpa Kaithal
 
-A responsive React + Vite portfolio inspired by the supplied peach editorial portfolio reference.
+<p align="center">
+  <img src="screenshots/preview.png" 
+       alt="Pushpa Kaithal Portfolio"
+       width="100%">
+</p>
 
-## Run locally
+### Frontend Developer | MERN Stack Developer | Computer Science Graduate
 
-1. Install Node.js (Node 20+ recommended).
-2. In this folder run:
+I'm a Computer Science graduate passionate about building modern, responsive, and user-friendly web applications. I enjoy turning ideas into real-world applications using React, JavaScript, Node.js, and modern web technologies.
 
-```bash
-npm install
-npm run dev
-```
+I believe in continuous learning, writing clean code, and building projects that solve real-world problems.
 
-3. Open the local URL printed by Vite.
+---
 
-## Production build
+## 🚀 About Me
 
-```bash
-npm run build
-npm run preview
-```
+- 🎓 B.Tech in Computer Science & Engineering (2026 Graduate).
+- 💻 Interested in Frontend and Full-Stack Development.
+- 🌱 Currently improving my skills in React.js, Node.js, and System Design.
+- 🔨 Building real-world applications and exploring new technologies.
+- 🎯 Looking for opportunities to grow as a Software Developer.
 
-The production site is generated in `dist/`.
+---
 
-## Personalize before publishing
+## 🛠️ Tech Stack
 
-- Replace `public/images/pushpa-portrait-reference-crop.jpg` with a clean original portrait photo. Keep the same filename, or update the `img` path in `src/main.jsx`.
-- Add verified GitHub repository and live demo links to each project card. They are intentionally not fabricated because individual project URLs were not provided.
-- Add a hosted resume link/button if desired.
-- Review project feature lists and technology stacks to ensure they match the final deployed code before publication.
+**Frontend**
+- HTML5, CSS3, JavaScript
+- React.js, Bootstrap, Tailwind CSS
+- Material UI
 
-## Deploy
+**Backend**
+- Node.js, Express.js
+- REST APIs
 
-This is a standard Vite app and can be deployed to Vercel, Netlify, Cloudflare Pages or any static hosting provider. Build command: `npm run build`; output directory: `dist`.
+**Database**
+- MongoDB, Mongoose, MySQL
+
+**Tools**
+- Git & GitHub
+- VS Code
+- Vite
+
+**Programming Language**
+- C++
+
+---
+
+## 💼 Featured Projects
+
+### 1. Jay Malhar Restaurant
+An online food ordering platform with a modern user interface and backend integration.
+
+**Tech:** React.js, Node.js, Express.js, MongoDB
+
+### 2. StayHub – Airbnb Clone
+A property listing and booking web application inspired by Airbnb.
+
+**Tech:** Node.js, Express.js, MongoDB
+
+### 3. TechBazaar – E-Commerce Website
+An e-commerce application with product management and database integration.
+
+**Tech:** Node.js, Express.js, MongoDB, Bootstrap
+
+### 4. FloraVision – Plant Shop
+A responsive React frontend application for browsing and exploring plants.
+
+**Tech:** React.js, Tailwind CSS
+
+---
+
+## 📊 What I'm Focused On
+
+- Building responsive and scalable web applications.
+- Improving problem-solving and DSA skills.
+- Learning backend architecture and system design.
+- Creating practical projects that demonstrate my development skills.
+
+---
+
+## 🤝 Connect With Me
+
+- **LinkedIn:** https://www.linkedin.com/in/pushpa-kaithal/
+- **GitHub:** https://github.com/pushpa-1pk/
+- **Email:** pushpakaithal0@gmail.com
+- **Portfolio:** [Add your live portfolio URL]
+
+---
+
+⭐ Thanks for visiting my portfolio repository!
+
+*Always learning. Always building. Always improving.*
