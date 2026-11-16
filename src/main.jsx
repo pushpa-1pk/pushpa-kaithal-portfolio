@@ -13,6 +13,7 @@ import {
   Layers3,
   ExternalLink,
   Menu,
+  X,
 } from "lucide-react";
 import { educationData } from "./data/education";
 import { skillSummary } from "./data/skills";
@@ -309,6 +310,17 @@ function CertificateThumbnail({ certificate, onImageOpen }) {
 function App() {
   const [menu, setMenu] = React.useState(false);
   const [selectedCertificate, setSelectedCertificate] = React.useState(null);
+
+  React.useEffect(() => {
+    const handleKeyDown = (event) => {
+      if (event.key === "Escape") setMenu(false);
+    };
+    if (menu) {
+      document.addEventListener("keydown", handleKeyDown);
+    }
+    return () => document.removeEventListener("keydown", handleKeyDown);
+  }, [menu]);
+
   const cgpaValue =
     educationData.education.cgpa.match(/\d+(?:\.\d+)?/)?.[0] ?? "";
   const foundationStats = [
@@ -326,10 +338,18 @@ function App() {
         <button
           className="menu-toggle"
           onClick={() => setMenu(!menu)}
-          aria-label="Toggle navigation"
+          aria-label={menu ? "Close navigation" : "Open navigation"}
+          aria-expanded={menu}
         >
-          <Menu />
+          {menu ? <X size={24} /> : <Menu size={24} />}
         </button>
+        {menu && (
+          <div
+            className="nav-backdrop"
+            onClick={() => setMenu(false)}
+            aria-hidden="true"
+          />
+        )}
         <nav className={menu ? "nav open" : "nav"}>
           {["About", "Projects", "Skills", "Contact"].map((x) => (
             <a
@@ -351,12 +371,16 @@ function App() {
             <h1 className="hero-intro">
               Hi there,
               <br />
-              i'm <em>Pushpa Kaithal</em>
+              i'm <em>Pushpa</em>
+              <br />
+              <em>Kaithal</em>
             </h1>
             <p className="hero-role">
               A full stack
               <br />
-              <em>web developer</em>
+              <em>web</em>
+              <br />
+              <em>developer</em>
             </p>
             <div className="portrait-wrap">
               <img
